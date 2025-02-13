@@ -1,0 +1,275 @@
+
+
+
+/* logo section mobile view */
+@media (max-width: 767px) {
+      .logo {
+        display: inline;
+        margin-top: 0rem;
+      }
+      .image-container img {
+        width: 80%;
+        height: 18rem;
+        object-fit: cover; 
+        margin-top: 1ch;
+      }
+      .info {
+        margin-top: 2rem;
+      }
+      
+      .info h1 {
+        font-size: 1.8rem; 
+        padding: 15px;
+      }
+      .info h3{
+        color: var(--textlight);
+        font-size: 1rem;
+      }
+      .logobtn{
+        margin-top: 1rem;
+        font-size: 1rem;
+      }
+      .logobtn:hover{
+        border-color: white;
+      }
+} 
+
+/* For tablets */
+ @media (min-width: 768px) {
+  
+} 
+
+/* For desktops */
+ @media (min-width: 1024px) {
+    
+}
+
+
+
+
+
+
+/* slecet fields */
+@media (max-width: 767px) {
+  .fieldheader{
+    font-size: 2rem;
+    margin: 2rem;
+  }
+  .selectfield{
+ margin: 0%;
+  }
+ .container{
+  margin: 3rem;
+ }
+  .card {
+   
+    height: 22rem;
+    width: 18rem;
+    
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+  .card img {
+    width: 100%;
+    height: 160px;
+}
+
+.card-content {
+    padding: 12px;
+    padding: 2rem;
+}
+
+.card h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+ .move{
+ margin-top: 1rem;
+  padding: 8px 8px;
+  border: 1px solid white;
+ }
+}
+
+
+
+
+/* rules */
+@media (max-width: 767px){
+  .mainrule{
+    display: flex;
+    justify-content: start;
+    margin: 0%;
+    margin: 1rem;
+    margin-top: -1rem;
+    /* margin-left: 6rem; */
+  }
+   .rules-container {
+    max-width: 600px;
+    background: var(--bg);
+    
+  }
+  
+  .rules-container h2 {
+    font-size: 2.8rem;
+    color: var(--navcolorhover);
+    margin-bottom: 2rem;
+  }
+  .rules {
+    list-style: none;
+    padding: 0;
+  }
+  .rules li {
+    /* background: #ffeb3b; */
+    padding: 10px;
+    padding-left: 1rem;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: rgb(244, 247, 247);
+  }
+  .credit {
+    padding-left: -10rem;
+    text-align: start;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: var(--textlight);
+  } 
+}
+
+
+
+
+
+/* extra */
+@media (max-width: 767px){
+  .extra{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    /* margin: 2rem; */
+  }
+  .music-icon {
+    font-size: 1.5rem;
+  }
+  
+  .count{
+    font-size: 1.5rem;
+  }
+  .timer{
+    font-size: 3rem;
+  }
+}
+
+
+
+/* question */
+@media (max-width: 767px){
+  .ques-ans{
+    flex: 1;
+  }
+  .quiz-container {
+    width: 82%;
+    margin: auto;
+    margin-top: 2rem;
+    border: 2px solid #fdfcfc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: start;
+    background-color: var(--box);
+    color: white;
+  } 
+  .question {
+    /* font-size: 5.6rem; */
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+  .question h1{
+    font-size: 1.6rem;
+  }
+  .options {
+    padding-left: .5rem;
+    margin-bottom: 1rem;
+  }
+  .option {
+    width:16rem;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    margin: 5px 0;
+    border: 2px solid #fcfcfd;
+    border-radius: 5px; 
+  }
+  .submit {
+    padding: 10px 20px;
+    margin: 2rem;
+    background-color: var(--navbghover);
+    color: var(--navcolorhover);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+ 
+  
+  
+}
+
+
+
+
+
+
+/* result */
+@media (max-width: 767px){
+  .resultbtn{
+    gap: 4rem;
+    margin: 3rem;
+  }
+  
+  
+  .mainresult{
+    margin-top: 3.5rem;
+  }
+  
+  .result-container {
+    margin-top: 2rem;
+  }
+  
+  .result-container h1 {
+    color: var(--navcolorhover);
+    font-size: 25px;
+    margin-bottom: 2rem;
+  }
+  .percentage {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-top: 20px;
+  }
+  
+  .motivational-line p {
+    font-size: 20px;
+    font-weight:100;
+    color: black;
+    margin-top: 2.3rem;
+  }
+  
+  #progressCanvas {
+    background-color: transparent;
+  }
+  
+  
+  
+  .restart{
+    /* font-size: 2rem; */
+    /* min-width: 10rem; */
+    width: auto;
+  }
+  
+}
