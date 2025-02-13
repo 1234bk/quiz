@@ -196,14 +196,15 @@ button{
 
 .card h3 {
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
 }
 
 .card p {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: var(--textlight);
     margin-bottom: 15px;
+    line-height: 25px;
 }
 
 .quizbtn {
@@ -339,7 +340,7 @@ button{
   /* transition: color 0.5s ease;  */
 }
 .timer span {
-  color: white;
+  color: red;
   transition: color 0.5s ease; /* Smooth color transition */
 }
 .timer.red {
@@ -372,7 +373,7 @@ button{
   /* margin-bottom: 20px; */
 }
 .question h1{
-  font-size: 1.8rem;
+  font-size:2rem;
   margin: 1.8rem;
   margin-bottom: rem;
 }
@@ -390,6 +391,7 @@ button{
   /* width: 100%; */
   width: 20rem;
   padding: 10px;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
   /* margin: 5px 0; */
   border: 2px solid #fcfcfd;
@@ -505,7 +507,8 @@ bttn:hover {
 
 .result-container h1 {
   color: black;
-  font-size: 25px;
+  font-size: 2rem;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 
@@ -531,10 +534,11 @@ canvas {
 
 
 #motivationalText{
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 2rem;
-  color: black;
+  color: darkgreen;
   text-align: center;
+  font-weight: 200;
 }
 #progressCanvas {
   background-color: transparent;

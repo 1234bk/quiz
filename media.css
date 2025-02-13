@@ -23,11 +23,11 @@
       }
       .info h3{
         color: var(--textlight);
-        font-size: 1rem;
+        font-size: 1.6rem;
       }
       .logobtn{
         margin-top: 1rem;
-        font-size: 1rem;
+        font-size: 1.8rem;
       }
       .logobtn:hover{
         border-color: white;
@@ -63,7 +63,7 @@
  }
   .card {
    
-    height: 22rem;
+    min-height: 24rem;
     width: 18rem;
     
   }
@@ -84,12 +84,12 @@
 
 .card h3 {
     margin-bottom: 8px;
-    font-size: 18px;
+    font-size: 1.6rem;
 }
 
 .card p {
-    font-size: 12px;
-    margin-bottom: 12px;
+    font-size: 20px;
+    margin-bottom: 0px;
 }
  .move{
  margin-top: 1rem;
@@ -162,7 +162,7 @@
     font-size: 1.5rem;
   }
   .timer{
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 
@@ -198,7 +198,7 @@
   }
   .option {
     width:16rem;
-    font-size: 20px;
+    font-size: 23px;
     padding: 10px;
     margin-bottom: 1rem;
     margin: 5px 0;
@@ -207,7 +207,7 @@
   }
   .submit {
     padding: 10px 20px;
-    margin: 2rem;
+    margin: 0rem;
     background-color: var(--navbghover);
     color: var(--navcolorhover);
     border: none;
@@ -243,7 +243,7 @@
   
   .result-container h1 {
     color: var(--navcolorhover);
-    font-size: 25px;
+    font-size: 35x;
     margin-bottom: 2rem;
   }
   .percentage {
@@ -256,7 +256,7 @@
   .motivational-line p {
     font-size: 20px;
     font-weight:100;
-    color: black;
+    color: rgb(197, 216, 26);
     margin-top: 2.3rem;
   }
   
@@ -266,10 +266,23 @@
   
   
   
-  .restart{
-    /* font-size: 2rem; */
+  /* .restart{
+    font-size: 1rem;
     /* min-width: 10rem; */
-    width: auto;
+    /* width: auto; */
+  
+  .restart{
+    font-size: 1.3rem;
+    /* padding: 0px; */
+  }
+  .homebtn{
+    font-size: 1.3rem;
+  }
+  .resultbtn{
+    gap: 6px;
+    padding: 0px;
+    justify-content: space-around;
+    /* margin: 0%; */
   }
   
 }
