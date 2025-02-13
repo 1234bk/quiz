@@ -172,7 +172,7 @@ button{
     overflow: hidden;
     text-align: center;
     transition: 0.3s;
-    height: 26rem;
+    min-height: 26rem;
     width: 20rem;
     color: var(--navbghover);
 }
@@ -201,9 +201,9 @@ button{
 }
 
 .card p {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: var(--textlight);
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     line-height: 25px;
 }
 
