@@ -48,12 +48,10 @@ function closeModal() {
 
 
 
-// audio
-// Audio and Icon elements
 let audio = document.getElementById("bgMusic");
 let icon = document.getElementById("musicToggle");
 
-// Ensure audio and icon elements are present
+
 if (audio && icon) {
     icon.addEventListener("click", function() {
         if (audio.paused) {
